@@ -25,6 +25,7 @@
     "firebase": "^11.1.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
+    "typescript": ">=5.5 <5.7",
     "zone.js": "~0.15.0"
   },
   "devDependencies": {
