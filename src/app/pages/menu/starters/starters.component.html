@@ -1,0 +1,20 @@
+<div class="menu-container">
+    <!-- Show a message when no items are available -->
+    <div *ngIf="!starters || starters.length === 0">
+      <p>No starters available at the moment. Please check back later!</p>
+    </div>
+  
+    <!-- Display starter items -->
+    <div *ngFor="let item of starters" class="menu-card">
+      <img [src]="item.image" alt="{{ item.name }}" class="menu-card-image" />
+      <div class="menu-card-content">
+        <h3>{{ item.name }}</h3>
+        <p>{{ item.description }}</p>
+        <p><strong>Price:</strong> ₨{{ item.price }}</p>
+      </div>
+    </div>
+  </div>
+  <router-outlet></router-outlet>
+  
+  
+  

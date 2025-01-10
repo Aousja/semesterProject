@@ -1,0 +1,32 @@
+
+  
+<h2 class="menu-heading">Our Menu</h2>
+
+
+
+
+
+<nav class="navbar">
+  <div class="navbar-container">
+   
+    <a routerLink="starters" routerLinkActive="active">Starters</a> |
+    <a routerLink="main-course" routerLinkActive="active">Main Course</a> |
+    <a routerLink="desserts" routerLinkActive="active">Desserts</a>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
+
+  <div class="menu-container">
+    <div *ngFor="let item of menuItems" class="menu-card">
+      <img [src]="item.image" alt="{{ item.name }}" class="menu-card-image" />
+      <div class="menu-card-content">
+        <h3>{{ item.name }}</h3>
+        <p>{{ item.description }}</p>
+        <p><strong>Price:</strong> {{ item.price }}Rs</p>
+      </div>
+    </div>
+  </div>
+  
+  
+ 

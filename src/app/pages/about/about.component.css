@@ -1,0 +1,43 @@
+/* About Section Styles */
+.about-section {
+    position: relative;
+    height: 100vh;  /* Full height of the viewport */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    color: #fff;
+    background-color: #333; /* Fallback color */
+  }
+  
+  .about-section:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://wallpapers.com/images/hd/restaurant-in-pine-tree-spa-resort-darjeeling-india-v7iyh9ntuliinphs.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.28; /* Dark overlay for contrast */
+    z-index: 1; /* Ensures the background stays behind */
+  }
+  
+  .about-content {
+    z-index: 2; /* Keeps the text content on top of the overlay */
+    text-align: center;
+    padding: 20px;
+    max-width: 900px; /* Limits width of content for better readability */
+  }
+  
+  h2 {
+    font-size: 36px; /* Size for the title */
+    margin-bottom: 20px; /* Spacing below the title */
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 18px; /* Size for the paragraph */
+    margin-bottom: 30px; /* Spacing below the paragraph */
+  }
+  

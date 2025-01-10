@@ -1,0 +1,19 @@
+.home-container {
+    height: 100vh; /* Take up the full height of the viewport */
+    background-image: url('https://images.pexels.com/photos/958546/pexels-photo-958546.jpeg?cs=srgb&dl=pexels-chanwalrus-958546.jpg&fm=jpg'); /* Path to your background image */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    display: flex; /* Use flexbox to center the text */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    color: white; /* Make the text color white */
+    text-align: center; /* Align the text to the center */
+    font-family: 'Arial', sans-serif; /* Optional: Set a font */
+  }
+  
+  .home-container h1 {
+    font-size: 3rem; /* Adjust font size */
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Optional: Add a text shadow for readability */
+  }
+  

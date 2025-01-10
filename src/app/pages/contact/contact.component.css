@@ -1,0 +1,87 @@
+/* Contact Section Styles */
+.contact-section {
+    position: relative;
+    height: 100vh;  /* Full height of the viewport */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    color: #fff;
+    background-color: #333; /* Fallback color */
+  }
+  
+  .contact-section:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://wallpapers.com/images/hd/restaurant-in-pine-tree-spa-resort-darjeeling-india-v7iyh9ntuliinphs.jpg'); /* Add your contact background image */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.28; /* Dark overlay for contrast */
+    z-index: 1; /* Ensures the background stays behind */
+  }
+  
+  .contact-content {
+    z-index: 2; /* Keeps the text content on top of the overlay */
+    text-align: center;
+    padding: 20px;
+    max-width: 700px; /* Limit width for better layout */
+    width: 100%; /* Ensure responsiveness */
+  }
+  
+  h2 {
+    font-size: 32px; /* Adjusted size for better readability */
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  form {
+    width: 100%;
+    max-width: 500px; /* Limit form width for better appearance */
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left; /* Align labels left */
+  }
+  
+  label {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

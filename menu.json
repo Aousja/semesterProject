@@ -1,0 +1,138 @@
+{
+    "menu": [
+      {
+        "id": 1,
+        "name": "Chicken Biryani",
+        "description": "Aromatic rice with chicken and spices.",
+        "price": 250,
+        "category": "Main Course"
+      },
+      {
+        "id": 2,
+        "name": "Paneer Tikka",
+        "description": "Grilled paneer cubes with spices.",
+        "price": 200,
+        "category": "Starters"
+      },
+      {
+        "id": 3,
+        "name": "Gulab Jamun",
+        "description": "Sweet and soft milk-based dessert.",
+        "price": 100,
+        "category": "Desserts"
+      },
+      {
+        "id": 4,
+        "name": "Chicken Samosa",
+        "description": "Deep-fried pastry filled with spiced chicken mince.",
+        "price": 120,
+        "category": "Starters"
+      },
+      {
+        "id": 5,
+        "name": "Beef Seekh Kebab",
+        "description": "Grilled minced beef kebabs with spices.",
+        "price": 150,
+        "category": "Starters"
+      },
+      {
+        "id": 6,
+        "name": "Aloo Tikki",
+        "description": "Spiced potato patties served with chutney.",
+        "price": 100,
+        "category": "Starters"
+      },
+      {
+        "id": 7,
+        "name": "Pakora",
+        "description": "Deep-fried fritters made with gram flour and vegetables.",
+        "price": 80,
+        "category": "Starters"
+      },
+      {
+        "id": 8,
+        "name": "Shami Kebab",
+        "description": "Minced meat patties mixed with lentils and spices.",
+        "price": 140,
+        "category": "Starters"
+      },
+      {
+        "id": 9,
+        "name": "Chicken Malai Boti",
+        "description": "Creamy and tender chicken skewers.",
+        "price": 200,
+        "category": "Starters"
+      },
+      {
+        "id": 10,
+        "name": "Mutton Karahi",
+        "description": "Rich and spicy mutton curry cooked in a wok.",
+        "price": 800,
+        "category": "Main Course"
+      },
+      {
+        "id": 11,
+        "name": "Chicken Handi",
+        "description": "Creamy chicken curry cooked in a clay pot.",
+        "price": 700,
+        "category": "Main Course"
+      },
+      {
+        "id": 12,
+        "name": "Beef Nihari",
+        "description": "Slow-cooked beef stew with aromatic spices.",
+        "price": 500,
+        "category": "Main Course"
+      },
+      {
+        "id": 13,
+        "name": "Haleem",
+        "description": "Slow-cooked wheat, barley, and meat dish.",
+        "price": 300,
+        "category": "Main Course"
+      },
+      {
+        "id": 14,
+        "name": "Roghan Josh",
+        "description": "Tender lamb cooked in a flavorful tomato-based curry.",
+        "price": 750,
+        "category": "Main Course"
+      },
+      {
+        "id": 15,
+        "name": "Kheer",
+        "description": "Rice pudding flavored with cardamom and nuts.",
+        "price": 150,
+        "category": "Desserts"
+      },
+      {
+        "id": 16,
+        "name": "Kulfi",
+        "description": "Traditional frozen dessert made with condensed milk.",
+        "price": 120,
+        "category": "Desserts"
+      },
+      {
+        "id": 17,
+        "name": "Jalebi",
+        "description": "Crispy deep-fried spirals soaked in sugar syrup.",
+        "price": 80,
+        "category": "Desserts"
+      },
+      {
+        "id": 18,
+        "name": "Falooda",
+        "description": "Sweet dessert drink with vermicelli, jelly, and ice cream.",
+        "price": 200,
+        "category": "Desserts"
+      },
+      {
+        "id": 19,
+        "name": "Zarda",
+        "description": "Sweet saffron rice with nuts and dried fruits.",
+        "price": 180,
+        "category": "Desserts"
+      }
+    ]
+  }
+  

@@ -1,0 +1,13 @@
+<div class="menu-container">
+    <div *ngFor="let item of maincourse" class="menu-card">
+      <img [src]="item.image" alt="{{ item.name }}" class="menu-card-image" />
+      <div class="menu-card-content">
+        <h3>{{ item.name }}</h3>
+        <p>{{ item.description }}</p>
+        <p><strong>Price:</strong> ₨{{ item.price }}</p> <!-- Display in Pakistani Rupees -->
+      </div>
+    </div>
+  </div>
+  
+  
+  <router-outlet></router-outlet>

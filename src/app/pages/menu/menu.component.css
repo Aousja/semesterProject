@@ -1,0 +1,108 @@
+/* Styling for the Navigation Bar */
+.navbar {
+    background-color: #f1f1f1;  /* Light grey background for the navbar */
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Add subtle shadow for better separation */
+    margin-bottom: 20px;  /* Add some margin at the bottom to separate from the content */
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: center;  /* Center the navbar links */
+    gap: 30px;  /* Space between links */
+  }
+  
+  .navbar a {
+    text-decoration: none;  /* Remove underline from links */
+    color: #333;  /* Dark color for the text */
+    font-size: 1.2rem;  /* Adjust font size */
+    font-weight: 600;  /* Make the text a bit bolder */
+    transition: color 0.3s ease;  /* Smooth transition for color change */
+  }
+  
+  .navbar a:hover, 
+  .navbar a.active {
+    color: #e74c3c;  /* Change the color to red when active or hovered */
+    font-weight: bold;  /* Make the text bold when hovered or active */
+  }
+  
+  /* Responsive Design for Mobile Devices */
+  @media (max-width: 768px) {
+    .navbar-container {
+      flex-direction: column;  /* Stack the links vertically on smaller screens */
+      align-items: center;  /* Center the items in the column */
+      gap: 15px;  /* Smaller gap between links */
+    }
+  
+    .navbar a {
+      font-size: 1rem;  /* Reduce font size on mobile */
+    }
+  }
+  
+/* Styling for the "Our Menu" Heading */
+.menu-heading {
+    font-size: 2.5rem;  /* Large font size */
+    font-weight: 700;  /* Bold text */
+    text-align: center;  /* Center the heading */
+    color: #2c3e50;  /* Dark color for the heading */
+    margin-top: 20px;  /* Add space above the heading */
+    margin-bottom: 15px;  /* Add space below the heading */
+    text-transform: uppercase;  /* Make the text uppercase */
+    letter-spacing: 2px;  /* Add spacing between letters */
+    border-bottom: 3px solid #e74c3c;  /* Add a red underline */
+    padding-bottom: 10px;  /* Add padding below the text */
+  }
+  
+  /* Optional: Add a hover effect on the heading */
+  .menu-heading:hover {
+    color: #e74c3c;  /* Change the color to red when hovered */
+    text-decoration: underline;  /* Underline the text on hover */
+  }
+  
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .menu-card {
+    background-color: #fff; /* White background for the card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for the card */
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .menu-card:hover {
+    transform: translateY(-10px); /* Slightly raise the card on hover */
+  }
+  
+  .menu-card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .menu-card-content {
+    padding: 15px;
+  }
+  
+  .menu-card-content h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .menu-card-content p {
+    color: #777;
+    font-size: 1rem;
+  }
+  
+  .menu-card-content strong {
+    color: #e74c3c; /* Price color */
+  }
+  
